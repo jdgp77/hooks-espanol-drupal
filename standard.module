@@ -1,2 +1,9 @@
 <?php
 
+/**
+ * @file
+ * Este es un comentario basico, inicia con mayuscula y
+ * dinaliza con un punto.
+ *
+ * @author Julian David Guerrero Pinilla.
+ */
