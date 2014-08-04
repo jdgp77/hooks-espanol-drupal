@@ -1,0 +1,7 @@
+name = MisModulos
+description = Un modulo con ejemplos sencillos de cada hook
+package = Datia
+core = 7.x
+; Handlers
+files[] = standard.inc
+files[] = standard.module
