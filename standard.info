@@ -1,4 +1,4 @@
-name = MisModulos
+name = Standard
 description = Un modulo con ejemplos sencillos de cada hook
 package = Datia
 core = 7.x

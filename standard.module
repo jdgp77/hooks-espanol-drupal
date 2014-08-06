@@ -7,5 +7,26 @@
  *
  * @author Julian David Guerrero Pinilla.
  * @author Juan David Ceballos Bermudez.
- * @author Comentario de prueba.
  */
+
+/**
+ * Implement of hook_menu().
+ */
+
+function standard_menu(){
+  $items['admin/site-config/saludo'] = array(
+    'title' => 'Saludo',
+    'description' => 'saludo personalizado de drupal',
+    'page callback' => 'hola_mundo',
+    'access callback' => TRUE,
+    );
+
+  return $items;
+}
+
+function hola_mundo(){
+  return '
+  <p> Hola usuario nuevo en drupal</p>
+  ';
+}
+
